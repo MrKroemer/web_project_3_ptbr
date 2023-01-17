@@ -1,0 +1,9 @@
+.header__description{
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    width: 725px;
+    text-align: center;
+    margin-bottom: 70px;
+}

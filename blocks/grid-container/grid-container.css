@@ -1,0 +1,15 @@
+.grid-container{
+    width: 32px;
+    height: 32px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-areas: "upside upside upside" 
+    "leftsidedown rightsidedown rightsidedown"
+    "leftsidedown rightsidedown rightsidedown"
+    "leftsidedown rightsidedown rightsidedown"
+    "leftsidedown rightsidedown rightsidedown"
+    "leftsidedown rightsidedown rightsidedown"                                                                  ;
+    margin: 34px auto auto;
+    gap: 2px 2px;
+}

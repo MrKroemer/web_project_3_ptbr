@@ -1,0 +1,16 @@
+@import url(../blocks/page/page.css);
+
+
+/* Header elements */
+@import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/grid-container/__upside/grid-container__upside.css);
+@import url(../blocks/grid-container/__leftside-down/grid-container__leftside-down.css);
+@import url(../blocks/grid-container/__rightside-down/grid-container__rightside-down.css);
+@import url(../blocks/header/header-container.css);
+@import url(../blocks/header/__name/header__name.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__description/header__description.css);
+
+/* Fonts */
+@import url(../blocks/fonts/inter.css);
+

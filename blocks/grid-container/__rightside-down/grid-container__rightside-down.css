@@ -1,0 +1,7 @@
+.grid-container__rightside-down{
+    grid-area: rightsidedown;
+    background-color: #0278FE;
+    padding: 5px 0;
+    border-bottom-right-radius: 2px;
+    
+}

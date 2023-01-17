@@ -1,0 +1,7 @@
+.grid-container__leftside-down{
+    grid-area: leftsidedown;
+    background-color: #0278FE;
+    padding: 5px 0;
+    border-bottom-left-radius: 2px;
+    
+}

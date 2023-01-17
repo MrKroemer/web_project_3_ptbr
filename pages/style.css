@@ -1,0 +1,87 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section__subtitle{
+    font-family: 'Inter', sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    font-style: normal;
+    width: 1017px;
+    text-align:left;
+
+}
+
+.section__quote{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 34px;
+    width: 722px;
+    margin-bottom: 0;
+}
+
+.section__quote-author{
+    margin-left: 25px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 34px;
+    margin-top: 0;
+    margin-left: 526px;
+    margin-bottom: 0;
+}
+
+.section__text{
+width: 720px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1rem;
+line-height: 163%;
+margin: 0 auto 80px;
+}
+
+.section-pictures{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'image-1 image-2 image-3 image-4'
+    'image-5 image-6 image-7 image-8';
+    gap: 15px 15px;
+}
+
+.item-1{
+    grid-area: image-1;
+}
+
+.item-2{
+    grid-area: image-2;
+}
+
+.item-3{
+    grid-area: image-3;
+}
+
+.item-4{
+    grid-area: image-4;
+}
+
+.item-5{
+    grid-area: image-5;
+}
+
+.item-6{
+    grid-area: image-6;
+}
+
+.item-7{
+    grid-area: image-7;
+}
+
+.item-8{
+    grid-area: image-8;
+}
