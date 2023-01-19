@@ -1,0 +1,4 @@
+.cities__grid-button:hover{
+    opacity: 0.8;
+    transform: translateX(-10px);
+  }

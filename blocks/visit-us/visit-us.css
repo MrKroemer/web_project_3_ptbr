@@ -1,0 +1,11 @@
+.visit-us {
+    margin: 0 auto;
+    margin-top: 12px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .visit-us {
+      margin: 0;
+    }
+  }
+    

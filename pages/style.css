@@ -1,7 +1,17 @@
 .page {
-  width: 1280px;
-  height: auto;
-  margin: auto;
+  background: #000;
+  margin: 0;
+}
+
+.main{
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  color: #ffffff;
+  max-width: 1184px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .section {
@@ -11,17 +21,14 @@
 }
 
 .section__subtitle {
-  font-family: 'Inter', sans-serif;
   font-size: 54px;
   font-weight: 900;
   font-style: normal;
   width: 1017px;
   text-align: left;
-
 }
 
 .section__quote {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
@@ -31,20 +38,18 @@
 }
 
 .section__quote-author {
-  margin-left: 25px;
-  font-family: 'Inter', sans-serif;
+  position: relative;
+  bottom: 53px;
+  left: 268px;
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 34px;
-  margin-top: 0;
-  margin-left: 526px;
   margin-bottom: 0;
 }
 
 .section__text {
   width: 720px;
-  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -52,20 +57,25 @@
   margin: 0 auto 80px;
 }
 
-.section-pictures {
+.section__pictures-grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-template-areas: 'image-1 image-2 image-3 image-4'
-    'image-5 image-6 image-7 image-8';
+                       'image-5 image-6 image-7 image-8';
   width: 1180px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 90px 0 90px;
   gap: 15px 15px;
 }
 
 .item-1 {
   grid-area: image-1;
 }
+.item-1:hover{
+  top:-4px;
+  box-shadow:0 4px 4px #999;
+  transition: all .2s ease-in-out}
 
 .item-2 {
   grid-area: image-2;
@@ -95,30 +105,32 @@
   grid-area: image-8;
 }
 
+.cities{
+  max-width: 1017px;
+  margin: 0 auto;
+}
+
 .grid-cities{
   display: grid;
   gap:50px ;
-  grid-template-columns:repeat(2, auto);
-  grid-template-rows: repeat(2, auto);
-  /* grid-template-areas: 'title description'
-                       'image descriptions'
-                       'button'
-                        ; */
+  grid-template-columns:repeat(2, 1fr);
+  grid-template-rows: auto 460px auto;
+  grid-template-areas: 'title  artist'
+                       'imagecity  descriptions'
+                       'button descriptions'
+                        ;
   box-sizing: border-box;
-  width: 1080px;
-  height: auto;
-  margin: auto;
+ padding: 0 0 80px 0;
 }
 
 .grid-cities__title {
   grid-area: title;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
-  line-height: 76px;
-  width: 460px;
-  margin-bottom: 0;
+  line-height: 1;
+  max-width: 460px;
+  margin: 0;
 }
 
 .grid-cities__title_size{
@@ -129,55 +141,51 @@
   grid-area: imagecity;
   width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .artist-description{
-  grid-area: description;
-  display: flex;
+  grid-area: artist;
+  display: inline-flex;
   flex-direction: column;
-  row-gap: 10px;
-  padding-top: 130px;
-}
-.artist-description_size{
-  padding-top: 103px;
+  justify-content: flex-end;
+  max-width: 484px;
 }
 
 .grid-cities__artist {
-  width: 58px;
+  max-width: 58px;
   height: 15px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin: 0 0 9px 0;
 }
 
 .grid-cities__artist-name {
-  width: 456px;
+  max-width: 456px;
   height: 22px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  margin-top: 0;
-  margin-bottom: 0;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin: 0;
 }
 
-.grid-cities__column-2 {
-  grid-area: description;
-  display: flex;
-  flex-direction: column;
-  row-gap: 50px;
+.cities__grid-descriptions{
+  max-width: 484px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.6;
+  grid-area: descriptions;
 }
 
 .grid-cities__description{
   width: 484px;
   height: auto;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 1.13rem;
@@ -187,18 +195,26 @@
 
 .grid-cities__button {
   grid-area: button;
-  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 1.2rem;
+  line-height: 1.2;
   width: 355px;
   height: 48px;
-  left: 148px;
-  top: 3119px;
+  text-decoration: none;
+  cursor: pointer;
   background: #0278FE;
   color: #FFF;
   border-radius: 4px;
+  transition: 0.5s;
+}
+
+.cities__grid-button:hover{
+  opacity: 0.8;
+  transform: translateX(-10px);
 }
 
 .grid-cities__column-1{
@@ -207,47 +223,77 @@
   row-gap: 45px;
 }
 
-.grid-cities__column-2:nth-child(2){
-  grid-row: 1;
-  grid-column: 2;
-}
-
-.footer__image{
-  background-image: url("../images/section-pictures/visit.jpg");
+.visit-us__overlay{
+  background-image: url("../images/section-pictures/__background.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  width: 56%;
-  height: 100%;
- 
+  width: 1080px;
+  height: 740px;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  /* transition: opacity 0.5s linear; */
 }
 
-.footer__title{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-text-align: center;
+/* .visit-us__overlay::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2a2c2f;
+  opacity: 0.2;
+  transition: 0.3s;
+  z-index: 0;
+} */
+
+/* .visit-us__overlay:hover::before {
+  opacity: 0.1;
+} */
+
+.visit-us__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 32px;
+  margin-top: 55px;
 }
 
-.footer__address{
-font-family: 'Inter';
+.visit-us__title{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  margin: 0;
+}
+
+.visit-us__address{
 font-style: normal;
 font-weight: 400;
 font-size: 18px;
 line-height: 22px;
 text-align: center;
+margin: 0;
 }
 
-.footer__buy-tickets{
-  text-align: center;
-  background-color: #0278FE;
+.visit-us__buy-ticket_button{
   width: 191px;
   height: 48px;
-  border-radius: 4px; 
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 22px;
-  color: #fff;
+  margin: 0 auto;
 }
+
+.footer__copyright{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  padding: 92px 0 24px;
+  margin: 0 auto;
+}
+

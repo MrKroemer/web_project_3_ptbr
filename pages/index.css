@@ -1,16 +1,55 @@
+/* Page */
 @import url(../blocks/page/page.css);
-
-
-/* Header elements */
-@import url(../blocks/grid-container/grid-container.css);
-@import url(../blocks/grid-container/__upside/grid-container__upside.css);
-@import url(../blocks/grid-container/__leftside-down/grid-container__leftside-down.css);
-@import url(../blocks/grid-container/__rightside-down/grid-container__rightside-down.css);
-@import url(../blocks/header/header-container.css);
-@import url(../blocks/header/__name/header__name.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__description/header__description.css);
 
 /* Fonts */
 @import url(../blocks/fonts/inter.css);
+
+
+/* Header elements */
+@import url(../blocks/header/header-container.css);
+@import url(../blocks/header/grid-container/grid-container.css);
+@import url(../blocks/header/grid-container/__upside/grid-container__upside.css);
+@import url(../blocks/header/grid-container/__leftside-down/grid-container__leftside-down.css);
+@import url(../blocks/header/grid-container/__rightside-down/grid-container__rightside-down.css);
+@import url(../blocks/header/__name/header__name.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/__description/header__description.css);
+@import url(../blocks/header/__image/header__image.css);
+
+/* Main element */
+@import url(../blocks/main/main.css);
+
+/* Section's elements */
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__subtitle/section__subtitle.css);
+@import url(../blocks/section/__quote/section__quote.css);
+@import url(../blocks/section/__quote/-author/section__quote-author.css);
+@import url(../blocks/section/__text/section__text.css);
+@import url(../blocks/section/__pictures-grid/section__pictures-grid.css);
+
+/* Cities elements */
+@import url(../blocks/cities/cities.css);
+@import url(../blocks/cities/__grid/cities__grid.css);
+@import url(../blocks/cities/__grid/-title/cities__grid-title.css);
+@import url(../blocks/cities/__grid/-image/cities__grid-image.css);
+@import url(../blocks/cities/__grid/-artist/-description/cities__grid-artist-description.css);
+@import url(../blocks/cities/__grid/-artist/cities__grid-artist.css);
+@import url(../blocks/cities/__grid/-artist/-name/cities__grid-artist-name.css);
+@import url(../blocks/cities/__grid/-descriptions/cities__grid-descriptions.css);
+@import url(../blocks/cities/__grid/-description/cities__grid-description.css);
+@import url(../blocks/cities/__grid/-button/cities__grid-button.css);
+@import url(../blocks/cities/__grid/-button/_hover/cities__grid-button-hover.css);
+
+/* Visit-us elements */
+@import url(../blocks/visit-us/__overlay/visit-us__overlay.css);
+@import url(../blocks/visit-us/__content/visit-us__content.css);
+@import url(../blocks/visit-us/__title/visit-us__title.css);
+@import url(../blocks/visit-us/__address/visit-us__address.css);
+@import url(../blocks/visit-us/__buy-ticket-button/visit-us__buy-ticket-button.css);
+
+/* Footer elements */
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
+
 

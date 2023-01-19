@@ -1,0 +1,9 @@
+.cities__grid-descriptions{
+    max-width: 484px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.6;
+    grid-area: descriptions;
+  }
+  

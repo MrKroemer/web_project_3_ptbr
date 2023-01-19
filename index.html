@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
-  <link rel="stylesheet" href="./pages/style.css">
   <title>De Pátria para Pátria</title>
 </head>
 
@@ -24,6 +23,7 @@
       <h3 class="header__description">Uma jornada épica do Kentucky ao Burundi pelo País de Gales e Ucrânia</h3>
       <img src="./images/header/beach.jpg" alt="Paisagem em preto e branco" class="header__image-2">
     </header>
+    <main class="main">
     <section class="section">
       <h3 class="section__subtitle">Conheça um pouco melhor os lugares de onde seus amigos online vêm</h3>
       <p class="section__quote">Todo ser humano é um artista, um ser livre, convocado para participar da transformação
@@ -40,7 +40,7 @@
         cidade natal à nossa coleção. Não importa de onde você é, estamos felizes de você ser nosso vizinho.
       </p>
     </section>
-    <section class="section-pictures">
+    <section class="section__pictures-grid">
       <img src="./images/section-pictures/item-1.png" alt="" class="item-1">
       <img src="./images/section-pictures/item-2.png" alt="" class="item-2">
       <img src="./images/section-pictures/item-3.png" alt="" class="item-3">
@@ -51,28 +51,21 @@
       <img src="./images/section-pictures/item-8.png" alt="" class="item-8">
     </section>
     <article class="cities">
-      <section class="grid-cities">
-        <div class="grid-cities__column-1">
-        <h1 class="grid-cities__title">Kiev, Ucrânia</h1>
-        <img src="./images/section-pictures/item-9.png" alt="" class="grid-cities__image">
-        <button class="grid-cities__button">Compre esta obra de arte como NFT</button>
-       </div>
-        <!-- <div class="artist-description">
-        <h5 class="grid-cities__artist">Artista</h5>
-        <p class="grid-cities__artist-name">Natalia Dolgushina, produtora de conteúdo</p>
-        </div> -->
-        <div class="grid-cities__column-2">
-          <div class="artist-description">
-        <h5 class="grid-cities__artist">Artista</h5>
-        <p class="grid-cities__artist-name">Natalia Dolgushina, produtora de conteúdo</p>
+      <section class="cities__grid">
+        <h2 class="cities__grid-title">Kiev, Ucrânia</h2>
+        <img src="./images/section-pictures/item-9.png" alt="" class="cities__grid-image">
+        <div class="cities__grid-artist-description">
+        <h5 class="cities__grid-artist">Artista</h5>
+        <p class="cities__grid-artist-name">Natalia Dolgushina, produtora de conteúdo</p>
         </div>
-        <p class="grid-cities__description">Kyev(Kiev), capital da Ucrânia, é uma grande cidade localizada as margens do
+        <div class="cities__grid-descriptions">
+        <p class="cities__grid-description">Kyev(Kiev), capital da Ucrânia, é uma grande cidade localizada as margens do
           rio
           Dnipro. È claro que ninguém em sã consciência nadaria no rio, a menos que tenha crescido lá,
           e nesse caso provavelmente já tentou em algum momento. Os verões são quentes aqui e os
           invernos são frios, mas o outono e a primavera são incríveis.
         </p>
-        <p class="grid-cities__description">Acidade em sí é uma mistura de arquitetura pré-revolução, pós-guerra e
+        <p class="cities__grid-description">Acidade em sí é uma mistura de arquitetura pré-revolução, pós-guerra e
           soviética
           , toda ela salpicada da varandas modificadas. Se estiver na margem direita do Dnipro,
           a paisagem é dificil de percorrer para quem anda de bicileta e quem usa salto. A
@@ -80,26 +73,24 @@
           que vivem na periferia da margem direita.
         </p>
       </div>
+      <a href="https://www.hypeness.com.br/2022/11/banksy-esta-na-ucrania-grafites-do-artista-britanico-aparecem-em-predios-destruidos-pela-guerra/" class="cities__grid-button" target="_blank">Compre esta obra de arte com NTF</a>
       </section>
-      <section class="grid-cities">
-        <div class="grid-cities__column-1">
-        <h1 class="grid-cities__title grid-cities__title_size">Criccieth, País de Gales</h1>
-        <img src="./images/section-pictures/item10.png" alt="" class="grid-cities__image">
-        <button class="grid-cities__button">Compre esta obra de arte como NFT</button>
-        </div>
-        <div class="grid-cities__column-2">
-          <div class="artist-description artist-description_size">
-            <h5 class="grid-cities__artist">Artista</h5>
-            <p class="grid-cities__artist-name">Steffan Warren, editor-chefe <br>Ksenuya Glagoleva, gerente de projeto</p>
+      <section class="cities__grid">
+        <h2 class="cities__grid-title grid-cities__title_size">Criccieth, País de Gales</h2>
+        <img src="./images/section-pictures/item10.png" alt="" class="cities__grid-image">
+          <div class="cities__grid-artist-description artist-description_size">
+            <h5 class="cities__grid-artist">Artista</h5>
+            <p class="cities__grid-artist-name">Steffan Warren, editor-chefe <br>Ksenuya Glagoleva, gerente de projeto</p>
           </div>
-        <p class="grid-cities__description">A ruína medieval do Castelo de Criccieth tem vista para a cidade abaixo de
+        <div class="cities__grid-descriptions">
+        <p class="cities__grid-description">A ruína medieval do Castelo de Criccieth tem vista para a cidade abaixo de
           uma rocha
           que se projeta para o mar. Acredita-se que tenha sido construído por Liewelyn
           , o Grande, no século XIII. Cerca de 900 anos depois, a auto-intitulada *Pérola de Gales
           nas margens de Snowdonia* tornou-se um destino turístico popular durante os meses
           do verão.
         </p>
-        <p class="grid-cities__description">
+        <p class="cities__grid-description">
           A uma curta caminhada da estrada do castelo, você pode desfrutar do melhor sorvete do mundo no
           Cadewalader's, cujo ingrediente secreto, segundo rumores, são algas marinhas de origem
           local. Outra reivindicação à fama é o fato de que Criccieth ganhou o prêmio *Wales in bloom* por
@@ -108,26 +99,24 @@
           primeiro-ministro do Reino Unido.
         </p>
       </div>
+      <a href="https://www.hypeness.com.br/2016/06/que-tal-morar-nessa-fazenda-no-pais-de-gales-pagando-menos-de-10-reais-por-ano-de-aluguel/" class="cities__grid-button" target="_blank">Compre esta obra de arte como NFT</a>
       </section>
-      <section class="grid-cities">
-        <div class="grid-cities__column-1">
-        <h1 class="grid-cities__title">Berea, EUA</h1>
-        <img src="./images/section-pictures/item11.png" alt="" class="grid-cities__image">
-        <button class="grid-cities__button">Compre esta obra de arte como NFT</button>
+      <section class="cities__grid">
+        <h2 class="cities__grid-title">Berea, EUA</h2>
+        <img src="./images/section-pictures/item11.png" alt="" class="cities__grid-image">
+        <div class="cities___grid-artist-description">
+        <h5 class="cities__grid-artist">Artista</h5>
+        <p class="cities__grid-artist-name">Travis Turner, autor e editor</p>
         </div>
-        <div class="grid-cities__column-2">
-        <div class="artist-description">
-        <h5 class="grid-cities__artist">Artista</h5>
-        <p class="grid-cities__artist-name">Travis Turner, autor e editor</p>
-        </div>
-        <p class="grid-cities__description">Barea é uma pequena cidade localizada na parte central de Kentucky. A cidade
+        <div class="cities__grid-descriptions">
+        <p class="cities__grid-description">Barea é uma pequena cidade localizada na parte central de Kentucky. A cidade
           é cercada
           por belas florestas e campos. É conhecida como a capital do artesanato do estado, e os
           visitantes encontrarão muitas oportunidades de compras: lojas com bijouterias artesanais,
           velas, artigos de madeira, galerias, ateliês de vidro, e muito mais. A cidade realiza um festival anual
           que celebra o "pão de colher"
         </p>
-        <p class="grid-cities__description">
+        <p class="cities__grid-description">
           No entanto, provavelmente é mais conhecido pela faculdade local. O Berea College foi fundado em 1855 e foi o
           primeiro
           colégio no sul a ser racialmente integrado, bem como o primeiro a ser misto. De forma um tanto singular, não
@@ -135,63 +124,76 @@
           mensalidades - todo aluno recebe um bolsa de estudos integral.
         </p>
       </div>
+      <a href="https://www.hypeness.com.br/2023/01/humanidade-da-inteligencia-artificial-novos-testes-atualizam-o-classico-desafio-de-turing/" class="cities__grid-button" target="_blank">Compre esta obra de arte com NFT</a>
       </section>
-      <section class="grid-cities">
-        <div class="grid-cities__column-1">
-        <h1 class="grid-cities__title">Muramvya, Burundi</h1>
-        <img src="./images/section-pictures/muramvya.png" alt="" class="grid-cities__image">
-        <button class="grid-cities__button">Compre esta obra de arte como NFT</button>
+      <section class="cities__grid">
+        <h2 class="cities__grid-title">Muramvya, Burundi</h2>
+        <img src="./images/section-pictures/muramvya.png" alt="" class="cities__grid-image">
+        <div class="cities__grid-artist-description">
+        <h5 class="cities__grid-artist">Artista</h5>
+        <p class="cities__grid-artist-name">Grevisse Kenguruka, editor técnico</p>
         </div>
-        <div class="grid-cities__column-2">
-        <div class="artist-description">
-        <h5 class="grid-cities__artist">Artista</h5>
-        <p class="grid-cities__artist-name">Grevisse Kenguruka, editor técnico</p>
-        </div>
-        <p class="grid-cities__description">
+        <div class="cities__grid-descriptions">
+        <p class="cities__grid-description">
           Muramvya é uma das 18 províncias de Burundi. Na era do reino, Muramvya era a capital real e em 2007,
           por causa de sua paisagem cultural e natural, foi adicionada à Lista Provisória do Patrimônio Mundial da
           UNESCO.
           Está localizada no centro de burundi, entree as capitais políticas e econômicas do país.
         </p>
-        <p class="grid-cities__description">
+        <p class="cities__grid-description">
           O clima é bastante frio à noite, mas durante o dia, você pensaria que está no céu. A 2.665 metros (8.743 pés)
           acima do nível do mar, o Monte Teza é um dos lugares mais frios da província. Mas essa brisa fresca permite
           uma
           das maiores plantações de chá e café do país, que representama a maior parte das exportações do Burundi.
         </p>
-        <p class="grid-cities__description">
+        <p class="cities__grid-description">
           O Parque Nacional de Kibira, uma das maiores reservas de vida selvagem para macacos, se sobrepõe a quatro
           províncias, incluindo Muramvya. Este parque nacional se encontra no ápice das belas montanhas do Congo-Nile
           Divide,
-          variando entre 1.550 e 2.660 metros de altitude. Está repleta de uma bela vegetação e fonte par vários riose
-          riachos
-          que fornecem água em todo o país.
+          variando entre 1.550 e 2.660 metros de altitude. Está repleta de uma bela vegetação e fonte par vários rios e
+          riachos que fornecem água em todo o país.
         </p>
       </div>
+      <a href="https://www.hypeness.com.br/2023/01/ja-imaginou-se-hospedar-na-famosa-vila-italiana-de-white-lotus-agora-voce-pode-realizar-esse-sonho/" class="cities__grid-button" target="_blank">Compre esta obra de arte com NFT</a>
       </section>
-      <section class="grid-cities">
-        <div class="grid-cities__column-1">
-        <h1 class="grid-cities__title"></h1>
-        <img src="" alt="" class="grid-cities__image">
-        <button class="grid-cities__button">Compre esta obra de arte como NFT</button>
+      <section class="cities__grid">
+        <h2 class="cities__grid-title">Natal-RN, Brasil</h2>
+        <img src="./images/section-pictures/__Natal_city.webp" alt="" class="cities__grid-image">
+        <div class="cities__grid-artist-description">
+        <h5 class="cities__grid-artist">Artista</h5>
+        <p class="cities__grid-artist-name">Flavio Rodrigues, musico amador e profissional de TI</p>
         </div>
-        <div class="grid-cities__column-2">
-        <h5 class="grid-cities__artist"></h5>
-        <p class="grid-cities__artist-name"></p>
-        <p class="grid-cities__description"></p>
+        <div class="cities__grid-descriptions">
+        <p class="cities__grid-description">Natal é um município brasileiro, capital do estado do Rio Grande do Norte, 
+          na Região Nordeste do país. Com uma área de aproximadamente 167 km², é a segunda capital brasileira com a menor 
+          área territorial e a sexta maior capital do país em densidade populacional, distando 2 227 quilômetros de Brasília, 
+          a capital federal.</p>
+        <p class="cities__grid-description">Fundada no Natal de 1599, às margens do Rio Potengi, que separa a Zona Norte das demais,
+           a cidade foi ocupada por holandeses entre 1633 e 1654, período no qual foi denominada de Nova Amsterdã. Seu crescimento foi 
+           lento nos três primeiros séculos de existência. Somente a partir do século XX, Natal passou por um intenso processo de modernização e, 
+           a partir da Segunda Guerra Mundial, sua população cresceu em um ritmo mais acelerado, especialmente nas décadas de 1970 e 1980.</p> 
+        <p class="cities__grid-description">Sua localização próxima à "esquina da América do Sul" chamou a atenção do Departamento de Guerra do 
+          Estados Unidos, que considerou Natal como "um dos quatro pontos mais estratégicos do mundo". Com o início das operações da primeira base de 
+          foguetes da América do Sul, no Centro de Lançamento da Barreira do Inferno, em Parnamirim, Natal se tornou a "Capital Espacial do Brasil". ]
+          A construção da Via Costeira, uma rodovia entre o Oceano Atlântico e o Parque das Dunas que interliga as praias de Areia Preta e Ponta Negra,
+           provocou um grande incremento no turismo local.</p>    
         </div>
-        
+        <a href="https://www.hypeness.com.br/2022/12/galaxias-sociais-mapa-transforma-as-redes-em-planetas-e-compara-o-tamanho-de-cada-plataforma/" class="cities__grid-button" target="_blank">Compre esta obra de arte com NFT</a>
       </section>
     </article>
-  <footer class="footer">
-    <div class="footer__image"></div> 
-    <h1 class="footer__title">Visite-Nos</h1>
-    <p class="footer__address">Durante todo o ano <br>galeria de arte Practicum <br>404, Avenida
-    Berners-Lee</p>
-    <button class="footer__buy-tickets">Comprar bilhetes</button>
-    <p class="footer__copyright">&copy; 2023 Flavio Rodrigues</p>
-  </footer>
+    <section class="visit-us">
+      <div class="visit-us__overlay">
+        <div class="visit-us__content">
+          <h2 class="visit-us__title">Visite-Nos</h2>
+          <p class="visit-us__address">Durante todo ano <br>Galeria de arte Practicum <br>404, Avenida Tim Berners-Lee</p>
+          <a href="#" class="visit-us__buy-ticket-button cities__grid-button" target="_blank">Comprar bilhete</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p class="footer__copyright">&copy; 2023. Flavio Rodrigues</p>
+    </footer>
+  </main>
 </div>
 </body>
-
 </html>

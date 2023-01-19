@@ -1,0 +1,21 @@
+.visit-us__overlay{
+    background-image: url("../../../images/section-pictures/__background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 740px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 320px) {
+    .visit-us__overlay {
+      max-width: 320px;
+      min-height: 254px;
+    }
+  }

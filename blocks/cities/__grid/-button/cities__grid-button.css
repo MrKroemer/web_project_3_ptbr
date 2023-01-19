@@ -1,0 +1,33 @@
+.cities__grid-button {
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    width: 355px;
+    height: 48px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #0278FE;
+    color: #FFF;
+    border-radius: 4px;
+    transition: 0.5s;
+  }
+  
+  @media screen and (max-width: 640px) {
+    .cities__grid-button {
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .cities__grid-button {
+      max-width: 288px;
+      font-size: 14px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }

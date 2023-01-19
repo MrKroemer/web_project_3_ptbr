@@ -1,8 +1,10 @@
-.section__quote {
+.section__quote-author {
+    position: relative;
+    bottom: 53px;
+    left: 268px;
     font-style: normal;
     font-weight: 400;
     font-size: 1.5rem;
     line-height: 34px;
-    width: 722px;
     margin-bottom: 0;
   }

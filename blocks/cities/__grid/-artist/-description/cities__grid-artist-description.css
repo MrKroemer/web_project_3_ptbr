@@ -1,0 +1,7 @@
+.cities__grid-artist-description{
+    grid-area: artist;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 484px;
+  }

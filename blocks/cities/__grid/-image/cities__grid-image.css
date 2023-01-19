@@ -1,0 +1,6 @@
+.cities__grid-image{
+    grid-area: imagecity;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
