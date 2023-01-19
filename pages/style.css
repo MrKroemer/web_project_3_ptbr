@@ -1,87 +1,253 @@
-.section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.page {
+  width: 1280px;
+  height: auto;
+  margin: auto;
 }
-.section__subtitle{
-    font-family: 'Inter', sans-serif;
-    font-size: 54px;
-    font-weight: 900;
-    font-style: normal;
-    width: 1017px;
-    text-align:left;
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 54px;
+  font-weight: 900;
+  font-style: normal;
+  width: 1017px;
+  text-align: left;
 
 }
 
-.section__quote{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 34px;
-    width: 722px;
-    margin-bottom: 0;
+.section__quote {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 34px;
+  width: 722px;
+  margin-bottom: 0;
 }
 
-.section__quote-author{
-    margin-left: 25px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5rem;
-    line-height: 34px;
-    margin-top: 0;
-    margin-left: 526px;
-    margin-bottom: 0;
+.section__quote-author {
+  margin-left: 25px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 34px;
+  margin-top: 0;
+  margin-left: 526px;
+  margin-bottom: 0;
 }
 
-.section__text{
-width: 720px;
-font-family: 'Inter', sans-serif;
+.section__text {
+  width: 720px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 163%;
+  margin: 0 auto 80px;
+}
+
+.section-pictures {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 'image-1 image-2 image-3 image-4'
+    'image-5 image-6 image-7 image-8';
+  width: 1180px;
+  margin: auto;
+  gap: 15px 15px;
+}
+
+.item-1 {
+  grid-area: image-1;
+}
+
+.item-2 {
+  grid-area: image-2;
+}
+
+.item-3 {
+  grid-area: image-3;
+}
+
+.item-4 {
+  grid-area: image-4;
+}
+
+.item-5 {
+  grid-area: image-5;
+}
+
+.item-6 {
+  grid-area: image-6;
+}
+
+.item-7 {
+  grid-area: image-7;
+}
+
+.item-8 {
+  grid-area: image-8;
+}
+
+.grid-cities{
+  display: grid;
+  gap:50px ;
+  grid-template-columns:repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  /* grid-template-areas: 'title description'
+                       'image descriptions'
+                       'button'
+                        ; */
+  box-sizing: border-box;
+  width: 1080px;
+  height: auto;
+  margin: auto;
+}
+
+.grid-cities__title {
+  grid-area: title;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  width: 460px;
+  margin-bottom: 0;
+}
+
+.grid-cities__title_size{
+  width: 480px;
+}
+
+.grid-cities__image{
+  grid-area: imagecity;
+  width: 100%;
+  height: auto;
+}
+
+.artist-description{
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding-top: 130px;
+}
+.artist-description_size{
+  padding-top: 103px;
+}
+
+.grid-cities__artist {
+  width: 58px;
+  height: 15px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.grid-cities__artist-name {
+  width: 456px;
+  height: 22px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.grid-cities__column-2 {
+  grid-area: description;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.grid-cities__description{
+  width: 484px;
+  height: auto;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.13rem;
+  line-height: 163%;
+  margin: 0;
+}
+
+.grid-cities__button {
+  grid-area: button;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  width: 355px;
+  height: 48px;
+  left: 148px;
+  top: 3119px;
+  background: #0278FE;
+  color: #FFF;
+  border-radius: 4px;
+}
+
+.grid-cities__column-1{
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+}
+
+.grid-cities__column-2:nth-child(2){
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.footer__image{
+  background-image: url("../images/section-pictures/visit.jpg");
+  background-repeat: no-repeat;
+  width: 56%;
+  height: 100%;
+ 
+}
+
+.footer__title{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 76px;
+text-align: center;
+}
+
+.footer__address{
+font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
-font-size: 1rem;
-line-height: 163%;
-margin: 0 auto 80px;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
 }
 
-.section-pictures{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 'image-1 image-2 image-3 image-4'
-    'image-5 image-6 image-7 image-8';
-    gap: 15px 15px;
-}
-
-.item-1{
-    grid-area: image-1;
-}
-
-.item-2{
-    grid-area: image-2;
-}
-
-.item-3{
-    grid-area: image-3;
-}
-
-.item-4{
-    grid-area: image-4;
-}
-
-.item-5{
-    grid-area: image-5;
-}
-
-.item-6{
-    grid-area: image-6;
-}
-
-.item-7{
-    grid-area: image-7;
-}
-
-.item-8{
-    grid-area: image-8;
+.footer__buy-tickets{
+  text-align: center;
+  background-color: #0278FE;
+  width: 191px;
+  height: 48px;
+  border-radius: 4px; 
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
 }
