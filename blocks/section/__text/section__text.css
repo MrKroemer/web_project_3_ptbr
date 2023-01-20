@@ -7,3 +7,21 @@
     line-height: 163%;
     margin: 0 auto 80px;
   }
+
+@media screen and (max-width: 768px) {
+    .section__text {
+        max-width: 700px;
+    }    
+}
+
+@media screen and (max-width:660px){
+    .section__text{
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section__text {
+        max-width: 288px;
+    }    
+}

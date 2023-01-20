@@ -8,6 +8,47 @@
                          'imagecity  descriptions'
                          'button descriptions'
                           ;
-    box-sizing: border-box;
    padding: 0 0 80px 0;
+   box-sizing: border-box;
   }
+
+  @media screen and (max-width: 768px) {
+    .cities__grid {
+      grid-template-rows: auto 340px auto;
+      gap: 28px 20px;
+      padding: 0 0 72px 0;
+    }    
+    .cities__grid:last-child {
+      padding: 0;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .cities__grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, auto);
+      grid-template-areas: 'title'
+                           'artist'
+                           'imagecity'
+                           'descriptions'
+                           'button';
+      max-width: 579px;
+      margin: auto;
+    }
+    .cities__grid:last-child {
+      padding-bottom: 64px;
+    }
+  }
+  @media screen and (max-width: 515px) {
+    .cities__grid {
+      max-width: 500px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .cities__grid {
+      max-width: 100%;
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      gap: 10px;
+      padding: 0 0 48px 0;
+    }
+  }
+    

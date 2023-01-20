@@ -1,17 +1,14 @@
-.section__pictures-grid{
+ .section__pictures-grid{ 
+  max-width: 1184px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: 'image-1 image-2 image-3 image-4'
-                       'image-5 image-6 image-7 image-8';
-  width: 1180px;
-  margin: 0 auto;
-  padding: 90px 0 90px;
-  gap: 15px 15px;
-}
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  gap: 16px;
+  padding-top: 90px auto 90px;
+  margin-bottom: 86px;
+} 
 
 .item-1 {
-  grid-area: image-1;
+  width: 100%;
   transition: 0.5s;
 }
 .item-1:hover{
@@ -21,7 +18,7 @@
 }
 
 .item-2 {
-  grid-area: image-2;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -30,7 +27,7 @@
 }
 
 .item-3 {
-  grid-area: image-3;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -39,7 +36,7 @@
 }
 
 .item-4 {
-  grid-area: image-4;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -48,7 +45,7 @@
 }
 
 .item-5 {
-  grid-area: image-5;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -58,7 +55,7 @@
 }
 
 .item-6 {
-  grid-area: image-6;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -67,7 +64,7 @@
 }
 
 .item-7 {
-  grid-area: image-7;
+  width: 100%;
   transition: 0.5s;
 }
 
@@ -76,10 +73,30 @@
 }
 
 .item-8 {
-  grid-area: image-8;
+  width: 100%;
   transition: 0.5s;
 }
 
 .item-8:hover{
   transform: translate(-10px, -10px);
+}
+ 
+@media screen and (max-width: 768px) {
+  .section__pictures-grid{
+      max-width: 720px;
+      padding-top: 88px;
+      padding-bottom: 88px;
+      gap: 16px;
+      margin-bottom: 86px;
+  }    
+}
+@media screen and (max-width: 320px) {
+  .section__pictures-grid{
+      max-width: 320px;
+      grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+      padding-top: 38px;
+      padding-bottom: 62px;
+      gap: 12px;
+      margin: 0, 16px;
+  }    
 }

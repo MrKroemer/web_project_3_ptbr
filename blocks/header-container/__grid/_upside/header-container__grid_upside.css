@@ -1,7 +1,5 @@
-.grid-container__upside{
+.header-container__grid_upside{
     grid-area: upside;
-    /* width: 32px;
-    height: 8px; */
     padding: 5px 0;
     background-color: #0278FE;
     border-radius: 2px 2px 0 0;

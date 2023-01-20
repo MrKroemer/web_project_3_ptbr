@@ -1,8 +1,44 @@
 .section__subtitle {
-    font-size: 54px;
+    font-size: 3.2rem;
     font-weight: 900;
     font-style: normal;
     width: 1017px;
     text-align: left;
+    margin-left: 59px;
   }
+
+  @media screen and (max-width: 995px){
+    .section__subtitle{
+        max-width: 880px;
+        text-align: center;
+        margin-right: 66px;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .section__subtitle{
+        max-width: 760px;
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .section__subtitle{
+        max-width: 600px;
+    }
+}
+
+@media screen and (max-width:660px){
+    .section__subtitle{
+        max-width: 450px;
+    }
+}
   
+@media screen and (max-width: 320px) {
+    .section__subtitle {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 1;
+        padding-bottom: 40px;
+    }    
+}

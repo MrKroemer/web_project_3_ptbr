@@ -8,3 +8,33 @@
     line-height: 34px;
     margin-bottom: 0;
   }
+  
+  @media screen and (max-width: 860px){
+    .section__quote-author{
+        /* max-width: 660px; */
+        font-size: 1rem;
+        bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section__quote-author {
+        max-width: 720px;
+        padding: 0;
+    }    
+}
+
+@media screen and (max-width:660px){
+    .section__quote-author{
+        left: 148px;
+        bottom: 40px;
+    }
+  }
+  
+  
+@media screen and (max-width: 320px) {
+    .section__quote-author {
+        max-width: 288px;
+        padding: 0;
+    }    
+}

@@ -1,0 +1,4 @@
+.header-container__image{
+    width: 100%;
+    filter: grayscale(100%);
+}

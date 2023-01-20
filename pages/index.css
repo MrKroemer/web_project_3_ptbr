@@ -1,20 +1,23 @@
+/* Normalize */
+@import url(../vendor/normalize.css);
+
 /* Page */
 @import url(../blocks/page/page.css);
 
 /* Fonts */
-@import url(../blocks/fonts/inter.css);
+@import url(../vendor/fonts/inter.css);
 
 
 /* Header elements */
-@import url(../blocks/header/header-container.css);
-@import url(../blocks/header/grid-container/grid-container.css);
-@import url(../blocks/header/grid-container/__upside/grid-container__upside.css);
-@import url(../blocks/header/grid-container/__leftside-down/grid-container__leftside-down.css);
-@import url(../blocks/header/grid-container/__rightside-down/grid-container__rightside-down.css);
-@import url(../blocks/header/__name/header__name.css);
-@import url(../blocks/header/__title/header__title.css);
-@import url(../blocks/header/__description/header__description.css);
-@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header-container/header-container.css);
+@import url(../blocks/header-container/__grid/header-container__grid.css);
+@import url(../blocks/header-container/__grid/_upside/header-container__grid_upside.css);
+@import url(../blocks/header-container/__grid/_leftside-down/header-container__grid_leftside-down.css);
+@import url(../blocks/header-container/__grid/_rightside-down/header-container__grid_rightside-down.css);
+@import url(../blocks/header-container/__name/header-container__name.css);
+@import url(../blocks/header-container/__title/header__title.css);
+@import url(../blocks/header-container/__description/header-container__description.css);
+@import url(../blocks/header-container/__image/header-container__image.css);
 
 /* Main element */
 @import url(../blocks/main/main.css);
@@ -44,7 +47,8 @@
 @import url(../blocks/visit-us/__overlay/visit-us__overlay.css);
 @import url(../blocks/visit-us/__content/visit-us__content.css);
 @import url(../blocks/visit-us/__title/visit-us__title.css);
-@import url(../blocks/visit-us/__address/visit-us__address.css);
+@import url(../blocks/visit-us/__container/visit-us__container.css);
+@import url(../blocks/visit-us/__container/_paragraph/visit-us__container_paragraph.css);
 @import url(../blocks/visit-us/__buy-ticket-button/visit-us__buy-ticket-button.css);
 
 /* Footer elements */
