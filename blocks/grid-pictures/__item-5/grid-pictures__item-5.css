@@ -1,9 +1,0 @@
-.grid-pictures__item-5 {
-    width: 100%;
-    transition: 0.5s;
-  }
-  
-  .grid-pictures__item-5:hover{
-    opacity: 0.9;
-    transform: translate(-10px, -10px);
-  }

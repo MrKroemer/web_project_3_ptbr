@@ -5,11 +5,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas: "upside upside upside" 
-    "leftsidedown rightsidedown rightsidedown"
-    "leftsidedown rightsidedown rightsidedown"
-    "leftsidedown rightsidedown rightsidedown"
-    "leftsidedown rightsidedown rightsidedown"
-    "leftsidedown rightsidedown rightsidedown";
+    "leftside rightside rightside"
+    "leftside rightside rightside"
+    "leftside rightside rightside"
+    "leftside rightside rightside"
+    "leftside rightside rightside";
     margin: 34px auto auto;
     gap: 2px 2px;
 }

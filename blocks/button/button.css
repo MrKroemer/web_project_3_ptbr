@@ -1,4 +1,4 @@
-.cities__grid-button {
+.button {
     grid-area: button;
     display: flex;
     justify-content: center;
@@ -15,6 +15,11 @@
     color: #FFF;
     border-radius: 4px;
     transition: 0.5s;
+  }
+
+  .button:hover{
+    opacity: 0.8;
+    transform: translateX(-10px);
   }
   
   @media screen and (max-width: 640px) {

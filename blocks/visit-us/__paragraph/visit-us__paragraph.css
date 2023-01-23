@@ -1,4 +1,4 @@
-.visit-us__container--paragraph{
+.visit-us__paragraph{
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -8,7 +8,7 @@
     }
 
     @media screen and (max-width: 320px) {
-        .visit-us__container--paragraph {
+        .visit-us__paragraph {
           max-width: 220px;
           font-size: 14px;
           line-height: 1.1;
