@@ -1,9 +1,30 @@
 .cities__grid-description{
-    width: 484px;
+    max-width: 100%;
     height: auto;
     font-style: normal;
     font-weight: 400;
     font-size: 1.13rem;
     line-height: 163%;
     margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .cities__grid-description {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 740px) {
+    .cities__grid-description {
+      max-width: 100%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .cities__grid-description {
+      max-width: 100%;
+    }
+  }  
+  @media screen and (max-width: 320px) {
+    .cities__grid-description:last-child {
+      margin: 0;
+    }
   }

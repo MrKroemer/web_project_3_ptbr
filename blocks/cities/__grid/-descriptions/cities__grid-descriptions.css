@@ -6,4 +6,23 @@
     line-height: 1.6;
     grid-area: descriptions;
   }
+
+  @media screen and (max-width: 950px) {
+    .cities__grid-descriptions {
+      max-width: 352px;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .cities__grid-descriptions {
+      max-width: 579px;
+      margin: 0 16px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .cities__grid-descriptions {
+      max-width: 288px;
+    }
+  }
   

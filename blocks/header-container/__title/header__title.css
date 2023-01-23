@@ -2,25 +2,27 @@
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-size: 6.7rem;
-    width: 793px;
+    max-width: 793px;
     text-align: center;
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
     .header-container__title {
-        max-width: 720px;
+        max-width: 100%;
         font-size: 5rem;
     }    
 }
 @media screen and (max-width: 610px) {
     .header-container__title {
+        max-width: 100%;
       font-size: 3rem;
       line-height: 1;
     }
 }  
 @media screen and (max-width: 450px) {
     .header-container__title {
+        max-width: 100%;
       font-size: 60px;
       line-height: 1;
     }

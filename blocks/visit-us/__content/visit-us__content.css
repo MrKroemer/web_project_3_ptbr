@@ -1,7 +1,9 @@
 .visit-us__content{
-    display: flex;
+    text-align: center;
+    display: inline-flex;
     flex-direction: column;
-    align-items: center;
-    row-gap: 32px;
-    margin-top: 55px;
+    row-gap: 42px;
+    line-height: 1.6;
+    margin: auto;
+    max-width: 400px;
   }

@@ -9,7 +9,14 @@
     "leftsidedown rightsidedown rightsidedown"
     "leftsidedown rightsidedown rightsidedown"
     "leftsidedown rightsidedown rightsidedown"
-    "leftsidedown rightsidedown rightsidedown"                                                                  ;
+    "leftsidedown rightsidedown rightsidedown";
     margin: 34px auto auto;
     gap: 2px 2px;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    max-width: 320px;
+    min-height: 254px;
+  }
 }

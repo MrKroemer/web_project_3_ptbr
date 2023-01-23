@@ -1,4 +1,4 @@
-.cities__grid-artist-description{
+.cities__grid-artist--description{
     grid-area: artist;
     display: inline-flex;
     flex-direction: column;

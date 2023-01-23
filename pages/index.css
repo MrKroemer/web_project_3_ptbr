@@ -11,9 +11,9 @@
 /* Header elements */
 @import url(../blocks/header-container/header-container.css);
 @import url(../blocks/header-container/__grid/header-container__grid.css);
-@import url(../blocks/header-container/__grid/_upside/header-container__grid_upside.css);
-@import url(../blocks/header-container/__grid/_leftside-down/header-container__grid_leftside-down.css);
-@import url(../blocks/header-container/__grid/_rightside-down/header-container__grid_rightside-down.css);
+@import url(../blocks/header-container/__upside/header-container__upside.css);
+@import url(../blocks/header-container/__leftside/header-container__leftside.css);
+@import url(../blocks/header-container/__rightside/header-container__rightside.css);
 @import url(../blocks/header-container/__name/header-container__name.css);
 @import url(../blocks/header-container/__title/header__title.css);
 @import url(../blocks/header-container/__description/header-container__description.css);
@@ -30,12 +30,23 @@
 @import url(../blocks/section/__text/section__text.css);
 @import url(../blocks/section/__pictures-grid/section__pictures-grid.css);
 
+/* Grid pictures elements */
+@import url(../blocks/grid-pictures/grid-pictures.css);
+@import url(../blocks/grid-pictures/__item-1/grid-pictures__item-1.css);
+@import url(../blocks/grid-pictures/__item-2/grid-pictures__item-2.css);
+@import url(../blocks/grid-pictures/__item-3/grid-pictures__item-3.css);
+@import url(../blocks/grid-pictures/__item-4/grid-pictures__item-4.css);
+@import url(../blocks/grid-pictures/__item-5/grid-pictures__item-5.css);
+@import url(../blocks/grid-pictures/__item-6/grid-pictures__item-6.css);
+@import url(../blocks/grid-pictures/__item-7/grid-pictures__item-7.css);
+@import url(../blocks/grid-pictures/__item-8/grid-pictures__item-8.css);
+
 /* Cities elements */
 @import url(../blocks/cities/cities.css);
 @import url(../blocks/cities/__grid/cities__grid.css);
 @import url(../blocks/cities/__grid/-title/cities__grid-title.css);
 @import url(../blocks/cities/__grid/-image/cities__grid-image.css);
-@import url(../blocks/cities/__grid/-artist/-description/cities__grid-artist-description.css);
+@import url(../blocks/cities/__grid/-artist/--description/cities__grid-artist--description.css);
 @import url(../blocks/cities/__grid/-artist/cities__grid-artist.css);
 @import url(../blocks/cities/__grid/-artist/-name/cities__grid-artist-name.css);
 @import url(../blocks/cities/__grid/-descriptions/cities__grid-descriptions.css);
@@ -44,14 +55,16 @@
 @import url(../blocks/cities/__grid/-button/_hover/cities__grid-button-hover.css);
 
 /* Visit-us elements */
+@import url(../blocks/visit-us/visit-us.css);
 @import url(../blocks/visit-us/__overlay/visit-us__overlay.css);
 @import url(../blocks/visit-us/__content/visit-us__content.css);
 @import url(../blocks/visit-us/__title/visit-us__title.css);
 @import url(../blocks/visit-us/__container/visit-us__container.css);
-@import url(../blocks/visit-us/__container/_paragraph/visit-us__container_paragraph.css);
+@import url(../blocks/visit-us/__container/--paragraph/visit-us__container--paragraph.css);
 @import url(../blocks/visit-us/__buy-ticket-button/visit-us__buy-ticket-button.css);
 
 /* Footer elements */
+@import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 

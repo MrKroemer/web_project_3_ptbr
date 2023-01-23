@@ -1,0 +1,8 @@
+.grid-pictures__item-4 {
+    width: 100%;
+    transition: 0.5s;
+  }
+  
+  .grid-pictures__item-4:hover{
+    transform: translate(-10px, -10px);
+  }

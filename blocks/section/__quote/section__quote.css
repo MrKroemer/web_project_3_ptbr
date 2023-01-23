@@ -9,7 +9,7 @@
 
   @media screen and (max-width: 860px){
     .section__quote{
-        max-width: 660px;
+        max-width: 100%;
         font-size: 1rem;
         line-height: 1.3;
     }

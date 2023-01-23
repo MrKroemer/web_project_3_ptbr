@@ -1,13 +1,12 @@
 
 .cities__grid{
     display: grid;
-    gap:50px ;
+    gap:50px;
     grid-template-columns:repeat(2, 1fr);
     grid-template-rows: auto 460px auto;
     grid-template-areas: 'title  artist'
                          'imagecity  descriptions'
-                         'button descriptions'
-                          ;
+                         'button descriptions';
    padding: 0 0 80px 0;
    box-sizing: border-box;
   }
