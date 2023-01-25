@@ -7,7 +7,7 @@
     font-weight: 600;
     font-size: 1.2rem;
     line-height: 1.2;
-    width: 355px;
+    max-width: 355px;
     height: 48px;
     text-decoration: none;
     cursor: pointer;
@@ -23,13 +23,13 @@
   }
   
   @media screen and (max-width: 640px) {
-    .cities__grid-button {
+    .button {
       width: 100%;
       margin: 0 auto;
     }
   }
   @media screen and (max-width: 320px) {
-    .cities__grid-button {
+    .button {
       max-width: 288px;
       font-size: 14px;
       width: 100%;

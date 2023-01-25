@@ -28,7 +28,14 @@
 @media screen and (max-width:660px){
     .section__quote-author{
         left: 148px;
-        bottom: 40px;
+        bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width:460px){
+    .section__quote-author{
+        left: 100px;
+        bottom: 10px;
     }
   }
   
@@ -37,5 +44,6 @@
     .section__quote-author {
         max-width: 288px;
         padding: 0;
+        left: 75px;
     }    
 }

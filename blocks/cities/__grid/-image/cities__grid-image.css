@@ -1,6 +1,32 @@
 .cities__grid-image{
     grid-area: imagecity;
+    max-height: 460px;
     width: 100%;
-    height: auto;
     margin: auto;
+  }
+
+  @media screen and (max-width: 768px) {
+    .cities__grid-image {
+      max-width: 340px;
+      max-height: 340px;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    .cities__grid-image {
+      max-width: 545px;
+      max-height: 545px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .cities__grid-image{
+      max-width: 375px;
+      max-height: 375px;
+    }
+  }  
+  @media screen and (max-width: 320px) {
+    .cities__grid-image{
+      max-width: 320px;
+      max-height: 320px;
+    }
   }

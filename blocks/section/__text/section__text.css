@@ -16,12 +16,12 @@
 
 @media screen and (max-width:660px){
     .section__text{
-        max-width: 450px;
+        max-width: 100%;
     }
 }
 
 @media screen and (max-width: 320px) {
     .section__text {
-        max-width: 288px;
+        max-width: 100%;
     }    
 }

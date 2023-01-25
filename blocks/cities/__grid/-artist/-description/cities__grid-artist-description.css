@@ -1,0 +1,19 @@
+.cities__grid-artist-description{
+    grid-area: artist;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 484px;
+  }
+
+  @media screen and (max-width: 640px) {
+    .cities__grid-artist-description {
+      margin: 0 16px;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .cities__grid-artist-description{
+      max-width: 288px;
+    }
+  }
+    

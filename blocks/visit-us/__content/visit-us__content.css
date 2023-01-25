@@ -7,3 +7,9 @@
     margin: auto;
     max-width: 400px;
   }
+
+  @media screen and (max-width: 360px){
+    .visit-us__content{
+      max-width: 100%;
+    }
+  }

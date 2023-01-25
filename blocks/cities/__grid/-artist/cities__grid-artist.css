@@ -4,8 +4,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 15px;
+    color: #aaa;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-    margin: 0 0 9px 0;
+    margin: 0 0 8px 0;
+  }
+
+  @media screen and (max-width:320px){
+    .cities__grid-artist{
+      margin: 0 0 12px 0;
+    }
   }

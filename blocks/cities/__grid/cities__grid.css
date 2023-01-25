@@ -42,7 +42,7 @@
       max-width: 500px;
     }
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 320px){
     .cities__grid {
       max-width: 100%;
       grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));

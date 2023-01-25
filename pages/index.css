@@ -39,7 +39,7 @@
 @import url(../blocks/cities/__grid/cities__grid.css);
 @import url(../blocks/cities/__grid/-title/cities__grid-title.css);
 @import url(../blocks/cities/__grid/-image/cities__grid-image.css);
-@import url(../blocks/cities/__grid/-artist/--description/cities__grid-artist--description.css);
+@import url(../blocks/cities/__grid/-artist/-description/cities__grid-artist-description.css);
 @import url(../blocks/cities/__grid/-artist/cities__grid-artist.css);
 @import url(../blocks/cities/__grid/-artist/-name/cities__grid-artist-name.css);
 @import url(../blocks/cities/__grid/-descriptions/cities__grid-descriptions.css);

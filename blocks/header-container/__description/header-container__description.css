@@ -24,7 +24,7 @@
 }
 @media screen and (max-width: 320px) {
     .header-container__description {
-        max-width: 380px;
+        max-width: 318px;
         font-size: 0.8rem;
         line-height: 1.2;
         margin-top: 16px;
