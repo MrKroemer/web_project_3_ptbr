@@ -3,6 +3,7 @@
 * Introdução  
 * Figma  
 * Imagens  
+* Link do projeto
   
 **Introdução**    
   
@@ -15,5 +16,11 @@ Este é um projeto que mostra as cidades de origem de alguns funcionários do Pr
 **Imagens**  
   
 A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido. 
+
+**Link**
+
+[link do projeto no git pages](https://mrkroemer.github.io/web_project_3_ptbr/)
+
+[Link
   
 Boa sorte e divirta-se!   
